@@ -1,0 +1,21 @@
+html{
+	background-color: rgb(0, 24, 59);
+	font-family: 'Poppins';
+}
+#title{
+	padding-left: 50%;
+	font-weight: 800;
+	color: rgb(0, 160, 85);
+}
+#buttons{
+	flex-direction: row;
+}
+#num1,#num2 {
+	padding-right: 10%;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+#Res {
+	color: white;
+	font-weight: 700;
+}
