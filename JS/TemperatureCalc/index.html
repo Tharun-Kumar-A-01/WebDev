@@ -15,7 +15,7 @@
 		  <h2 class="font-medium text-4xl mb-4 text-center">Temperature Converter</h2>
 		  <div class="flex flex-col items-center space-y-4">
 			<div class="flex flex-row justify-between w-full space-x-5">
-			<input class="w-full px-4 py-2 border rounded-lg text-gray-700 focus:outline-none focus:border-indigo-500" type="number" placeholder="Temperature" id="temperature">
+			<input aria-label="C" class="w-full px-4 py-2 border rounded-lg text-gray-700 focus:outline-none focus:border-indigo-500" type="number" placeholder="Temperature" id="temperature">
 			<select title="Unit" id="inputUnit" class="w-25 px-4 py-2 border rounded-lg text-gray-700 focus:outline-none focus:border-indigo-500">
 			  <option value="C">&deg;C (Celcius)</option>
 			  <option value="F">&deg;F (Fahrenheit)</option>
@@ -25,8 +25,8 @@
 			<button class="px-4 py-2 font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-indigo-600 rounded-md hover:bg-indigo-500 focus:outline-none focus:bg-indigo-500" onclick="convertTemperature()">Convert</button>
 		  </div>
 		  <div class="flex items-center space-x-4">
-			<input class="w-full px-4 py-2 border rounded-lg text-gray-700 focus:outline-none focus:border-indigo-500" type="text" placeholder="Fahrenheit" id="outputFahrenheit" readonly>
-			<input class="w-full px-4 py-2 border rounded-lg text-gray-700 focus:outline-none focus:border-indigo-500" type="text" placeholder="Kelvin" id="outputKelvin" readonly>
+			<input aria-label="F" class="w-full px-4 py-2 border rounded-lg text-gray-700 focus:outline-none focus:border-indigo-500" type="text" placeholder="Fahrenheit" id="outputFahrenheit" readonly>
+			<input aria-label="K" class="w-full px-4 py-2 border rounded-lg text-gray-700 focus:outline-none focus:border-indigo-500" type="text" placeholder="Kelvin" id="outputKelvin" readonly>
 		  </div>
 		</div>
 	  </div>
